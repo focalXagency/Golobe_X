@@ -1,0 +1,105 @@
+.NM_AuthPage {
+  display: flex;
+  justify-content: center;
+  gap: var(--main-padding);
+  width: 100%;
+  padding: var(--main-padding);
+}
+
+.NM_ImageContainer {
+  height: 816px;
+}
+
+.NM_ImageContainer.signup {
+  width: 488px;
+}
+
+.NM_ImageContainer.login {
+  width: 618px;
+}
+
+.NM_FormContainer img {
+  width: 110.36px;
+  height: 36px;
+}
+
+.NM_FormContainer {
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 64px;
+}
+
+.NM_FormContainer.login {
+  width: 510px;
+}
+
+.NM_FormContainer.signup {
+  width: 640px;
+}
+
+.NM_AuthPage.login .NM_FormContainer {
+  order: 1;
+  /* Default order for login */
+}
+
+.NM_AuthPage.login .NM_ImageContainer {
+  order: 2;
+}
+
+.NM_AuthPage.signup .NM_FormContainer {
+  order: 2;
+  /* Different order for signup */
+}
+
+.NM_AuthPage.signup .NM_ImageContainer {
+  order: 1;
+}
+
+a {
+  cursor: pointer;
+}
+/* responsive */
+@media screen and (max-width:1300px) {
+  .NM_AuthPage {
+    flex-wrap: wrap;
+  }
+
+  .NM_AuthPage.signup .NM_FormContainer {
+    order: 1;
+  }
+
+  .NM_AuthPage.signup .NM_ImageContainer {
+    order: 2;
+  }
+  .NM_ImageContainer.signup,.NM_ImageContainer.login  {
+    width: 400px;
+  }
+
+  .NM_ImageContainer {
+    height: 500px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width:992px) {
+  .NM_AuthPage {
+    gap: var(--main-padding-home);
+    padding: var(--main-padding-home);
+  }
+  .NM_AuthPage.signup .NM_FormContainer ,
+  .NM_AuthPage.login .NM_FormContainer  {
+    width: 80%;
+  }
+  .NM_ImageContainer.signup,.NM_ImageContainer.login{
+    display: none;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .NM_AuthPage.signup .NM_FormContainer ,
+  .NM_AuthPage.login .NM_FormContainer {
+    width: 100%;
+  }
+}

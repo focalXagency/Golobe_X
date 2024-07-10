@@ -1,0 +1,1032 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Aya_Flight_Details_Final {
+    margin: 0 2.5rem 2.5rem 0px;
+    background: #FAFAFA;
+    width: 49.375rem;
+}
+.Aya_Flight_Details_Final .part1 .span {
+    width: 6.1rem;
+    text-align: right;
+    padding: 4.5px 0 4.5px 4.5px;
+    font-size: var(--medium-font-size);
+    font-weight: var(--fourth-font-weight);
+    line-height: var(--xxxmedium-line-hieght);
+    color: var(--price-color);
+}
+.Aya_Flight_Details_Final .part2 .span {
+    width: 4.75rem;
+    height: 1.5rem;
+    opacity: 75%;
+    font-family: var(--main-font);
+    font-size: var(--small-font-size);
+    font-weight: var(--second-font-weight);
+    line-height: var(--xmedium-line-hieght);
+    color: var(--main-text-color);
+}
+.Aya_Flight_Details_Final .part1 .title {
+    width: 18.31rem;
+    height: 1.87rem;
+    padding: 4.5px 4.5px 4.5px 0 ;
+    margin: 0;
+    font-size: var(--second-medium-font-size);
+    font-weight: var(--fourth-font-weight);
+    line-height: var(--xxmedium-line-hieght);
+    color: var(--main-text-color);
+}
+.Aya_Flight_Details_Final .part2 .title {
+    width: 10.5rem;
+    height: 1.25rem;
+    font-family: var(--second-font);
+    font-size: var(--xsmall-font-size);
+    font-weight: var(--fourth-font-weight);
+    line-height: var(--medium-line-hieght) ;
+    color: var(--main-text-color);
+    margin: 0;
+    padding-bottom: 4px;
+}
+.Aya_Flight_Details_Final .cards {
+    width: 49.375rem;
+    padding: 2rem 1.5rem 2rem 1.5rem;
+    gap: 24px;
+    border-radius: 12px;
+    background: var(--second-text-color);
+    box-shadow: 0px 4px 16px 0px #1122110D;
+    border: none;
+}
+.Aya_Flight_Details_Final .card-body {
+    padding: 0;
+}
+.Aya_Flight_Details_Final .part2  {
+    margin: 1.5rem 0;
+    width: 46.375rem;
+}
+.Aya_Flight_Details_Final .part1  {
+    width: 46.375rem;
+}
+.Aya_Flight_Details_Final .part3 .part3-1 .Emirates_line{
+    width: 4rem;
+    height: 2.78rem;
+}
+.Aya_Flight_Details_Final .part3 {
+    width: 46.375rem;
+    height: 5.375rem;
+    display: flex;
+    justify-content: space-between;
+}
+.Aya_Flight_Details_Final .part3-1 {
+    width: 16.37rem;
+    height: 5.375rem;
+    padding: 16px 32px 16px 32px;
+    gap: 24px;
+    border-radius: 8px;
+    border: 0.5px solid #FF8500 ;
+}
+.Aya_Flight_Details_Final .part3-1:hover {
+    box-shadow: 1px 1px 12px 0px #FF8500;
+    cursor: pointer;
+}
+.Aya_Flight_Details_Final .part3 .part3-1 .p {
+    width: 6.875rem;
+    height: 3.375rem;
+    margin-bottom: 0;
+}
+.Aya_Flight_Details_Final .part3 .part3-1 .p .span1 {
+    width: 6.875rem;
+    height: 29px;
+    font-family: var(--main-font);
+    font-size: var(--second-medium-font-size);
+    font-weight: var(--third-font-weight);
+    line-height: 29.26px;
+    color: var(--main-text-color);
+}
+.Aya_Flight_Details_Final .part3 .part3-1 .p .span1 {
+    width: 5.375rem;
+    height: 17px;
+    opacity: 0.6px;
+    font-family: var(--main-font);
+    font-size: var(--second-medium-font-size);
+    font-weight: var(--third-font-weight);
+    line-height: var(--xxsmall-line-hieght);
+    color: var(--main-text-color);
+}
+.Aya_Flight_Details_Final .part3 .part3-2 {
+    width: 22.5rem;
+    height: 5rem;
+    padding: 1.75rem 1.5rem ;
+    gap: 24px;
+    border-radius: var(--third-border-radius);
+    display: flex;
+    align-items:center;
+    justify-content: end;
+}
+.Aya_Flight_Details_Final .part3-2 .img2,.Aya_Flight_Details_Final .part3-2 .img4,.Aya_Flight_Details_Final .part3-2 .img6,.Aya_Flight_Details_Final .part3-2 .img8 {
+    width: 48px;
+}
+.Aya_Flight_Details_Final .part3 .part3-2 .img1 {
+    height: 1.5rem;
+    color: var(--main-text-color);
+    border-radius: 0;
+}
+.img1 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.Aya_Flight_Details_Final .part3 .part3-2 .img3 {
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 5.11px 3.01px 4.5px 3.01px;
+    color: var(--main-text-color);
+    border-radius: 0;
+}
+.Aya_Flight_Details_Final .part3 .part3-2 .img5 {
+    color: var(--main-text-color);
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 0;
+}
+.Aya_Flight_Details_Final .part3 .part3-2 .img7 {
+    width: 1.5rem;
+    height: 1.5rem;
+    color: var(--main-text-color);
+    border-radius: 0;
+}
+.Aya_Flight_Details_Final .part3 .part3-2 .img9 {
+    height: 1.5rem;
+    width: 1.5rem;
+    padding: 1.99px 4.42px 2.93px 4px;
+    color: var(--main-text-color);
+    border-radius: 0;
+}
+.Aya_Flight_Details_Final .part3 .part3-2 .img1:hover , .Aya_Flight_Details_Final .part3 .part3-2 .img3:hover ,
+.Aya_Flight_Details_Final .part3 .part3-2 .img5:hover , .Aya_Flight_Details_Final .part3 .part3-2 .img7:hover , .Aya_Flight_Details_Final .part3 .part3-2 .img9:hover {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.Aya_Flight_Details_Final .part4 {
+    width: 46.375rem;
+    height: 3rem;
+    display: flex;
+    gap: 27px;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+.Aya_Flight_Details_Final .part4-2 .img2:hover {
+    transform: rotate(360deg);
+    transition-duration: 2s;
+    cursor: pointer;
+}
+.Aya_Flight_Details_Final .part4 .part4-1 , .Aya_Flight_Details_Final .part4 .part4-2 , .Aya_Flight_Details_Final .part4 .part4-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+.Aya_Flight_Details_Final .part4 .part4-1 {
+    width: 15rem;
+    height: 29px;
+    gap: 16px;
+}
+.Aya_Flight_Details_Final .part4 .part4-2 {
+    width: 105rem;
+    height: 3rem;
+    gap: 24px;
+    position: relative;
+}
+.Aya_Flight_Details_Final .part4 .part4-3 {
+    width: 15rem;
+    height: 29px;
+    gap: 16px;
+}
+.Aya_Flight_Details_Final .part4 .img10 {
+    width: 2.25rem;
+    height: 0px;
+    border: 1px solid #000000 ;
+    color: var(--main-text-color);
+    margin: 1.5rem 0;
+}
+.Aya_Flight_Details_Final .part4 .img11 {
+    width: 45px;
+    height: 39px;
+    top: 4.5px;
+    left: 1.5px;
+    color: var(--main-text-color);
+}
+.Aya_Flight_Details_Final .part4 .img12 {
+    width: 2.25rem;
+    height: 0px;
+    border: 1px solid #000000 ;
+    color: var(--main-text-color);
+    margin: 1.5rem 0;
+}
+.Aya_Flight_Details_Final .part4 .span1 , .Aya_Flight_Details_Final .part4 .span3  {
+    width: 110px;
+    height: 29px;
+    font-family: var(--main-font);
+    font-size: var(--second-medium-font-size);
+    font-weight: var(--third-font-weight);
+    line-height: 29.26px;
+    text-align: left;
+    color: var(--main-text-color);
+    margin: 0;
+}
+.Aya_Flight_Details_Final .part4 .span2 , .Aya_Flight_Details_Final .part4 .span4 {
+    width: 7.125rem;
+    height: 1.25rem;
+    margin: 0;
+    opacity: 60%;
+    font-family: var(--main-font);
+    font-size: var(--xsmall-font-size);
+    font-weight: var(--second-font-weight);
+    line-height: var(--xxxsmall-line-hieght);
+    text-align: left;
+    color: #112211;
+}
+@media (min-width : 1310px) and (max-width : 1400px) {
+    .Aya_Flight_Details_Final ,.Aya_Flight_Details_Final .cards {
+        width: 46.375rem;
+    }
+    .Aya_Flight_Details_Final .part1 , .Aya_Flight_Details_Final .part2 ,
+    .Aya_Flight_Details_Final .part3 ,.Aya_Flight_Details_Final .part4 {
+        width: 43.375rem;
+    }
+}
+@media (min-width : 1270px) and (max-width : 1309px) {
+    .Aya_Flight_Details_Final ,.Aya_Flight_Details_Final .cards {
+        width: 44.375rem;
+    }
+    .Aya_Flight_Details_Final .part1 , .Aya_Flight_Details_Final .part2 ,
+    .Aya_Flight_Details_Final .part3 ,.Aya_Flight_Details_Final .part4 {
+        width: 41.375rem;
+    }
+    .Aya_Flight_Details_Final .part4 {
+        gap: 23px;
+    }
+    .Aya_Flight_Details_Final .part4 .part4-2 {
+        gap: 18px;
+    }
+    .Aya_Flight_Details_Final .part4 .part4-3 , .Aya_Flight_Details_Final .part4 .part4-1 {
+        gap: 8px;
+    }
+}
+@media (min-width : 1225px) and (max-width : 1269px) {
+    .Aya_Flight_Details_Final ,.Aya_Flight_Details_Final .cards {
+        width: 42.375rem;
+    }
+    .Aya_Flight_Details_Final .part1 , .Aya_Flight_Details_Final .part2 ,
+    .Aya_Flight_Details_Final .part3 ,.Aya_Flight_Details_Final .part4 {
+        width: 39.375rem;
+    }
+    .Aya_Flight_Details_Final .part4 {
+        gap: 18px;
+    }
+    .Aya_Flight_Details_Final .part4 .part4-2 {
+        gap: 15px;
+    }
+    .Aya_Flight_Details_Final .part4 .part4-3 , .Aya_Flight_Details_Final .part4 .part4-1 {
+        gap: 0px;
+    }
+    .Aya_Flight_Details_Final .part4 .span1, .Aya_Flight_Details_Final .part4 .span3 {
+        font-size: 20px;
+    }
+}
+@media (min-width : 1180px) and (max-width : 1224px) {
+    .Aya_Flight_Details_Final ,.Aya_Flight_Details_Final .cards {
+        width: 39.375rem;
+    }
+    .Aya_Flight_Details_Final .part1 , .Aya_Flight_Details_Final .part2 ,
+    .Aya_Flight_Details_Final .part3 ,.Aya_Flight_Details_Final .part4 {
+        width: 36.375rem;
+    }
+    .Aya_Flight_Details_Final .part4 {
+        gap: 18px;
+    }
+    .Aya_Flight_Details_Final .part4 .part4-2 {
+        gap: 2px;
+    }
+    .Aya_Flight_Details_Final .part4 .part4-3 , .Aya_Flight_Details_Final .part4 .part4-1 {
+        gap: 0px;
+    }
+    .Aya_Flight_Details_Final .part4 .span1, .Aya_Flight_Details_Final .part4 .span3 {
+        font-size: 20px;
+        width: 100px;
+    }
+    .Aya_Flight_Details_Final .part3-1 {
+        width: 15.37rem;
+        gap: 18px;
+    }
+    .Aya_Flight_Details_Final .part4 .img11 {
+        width: 35px;
+    }
+}
+@media (min-width : 1130px) and (max-width : 1179px)  {
+    .Aya_Flight_Details_Final ,.Aya_Flight_Details_Final .cards {
+        width: 39.375rem;
+    }
+    .Aya_Flight_Details_Final .part1 , .Aya_Flight_Details_Final .part2 ,
+    .Aya_Flight_Details_Final .part3 ,.Aya_Flight_Details_Final .part4 {
+        width: 36.375rem;
+    }
+    .Aya_Flight_Details_Final .part4 {
+        gap: 18px;
+    }
+    .Aya_Flight_Details_Final .part4 .part4-2 {
+        gap: 6px;
+    }
+    .Aya_Flight_Details_Final .part4 .part4-3 , .Aya_Flight_Details_Final .part4 .part4-1 {
+        gap: 0px;
+    }
+    .Aya_Flight_Details_Final .part4 .span1, .Aya_Flight_Details_Final .part4 .span3 {
+        font-size: 20px;
+        width: 100px;
+    }
+    .Aya_Flight_Details_Final .part3-1 {
+        width: 15.37rem;
+        gap: 18px;
+    }
+    .Aya_Flight_Details_Final .part4 .img11 {
+        width: 35px;
+    }
+    .Aya_Flight_Details_Final .part4-2 .img2 {
+        width: 40px;
+    }
+}
+@media (min-width : 1100px) and (max-width : 1129px) {
+    .Aya_Flight_Details_Final ,.Aya_Flight_Details_Final .cards {
+        width: 39.375rem;
+    }
+    .Aya_Flight_Details_Final .part1 , .Aya_Flight_Details_Final .part2 ,
+    .Aya_Flight_Details_Final .part3 ,.Aya_Flight_Details_Final .part4 {
+        width: 36.375rem;
+    }
+    .Aya_Flight_Details_Final .part4 {
+        gap: 18px;
+    }
+    .Aya_Flight_Details_Final .part4 .part4-2 {
+        gap: 6px;
+    }
+    .Aya_Flight_Details_Final .part4 .part4-3 , .Aya_Flight_Details_Final .part4 .part4-1 {
+        gap: 0px;
+    }
+    .Aya_Flight_Details_Final .part4 .span1, .Aya_Flight_Details_Final .part4 .span3 {
+        font-size: 20px;
+        width: 100px;
+    }
+    .Aya_Flight_Details_Final .part3-1 {
+        width: 15.37rem;
+        gap: 18px;
+    }
+    .Aya_Flight_Details_Final .part4 .img11 {
+        width: 35px;
+    }
+    .Aya_Flight_Details_Final .part4-2 .img2 {
+        width: 40px;
+    }
+}
+@media (min-width : 993px) and (max-width : 1099px)  {
+    .Aya_Flight_Details_Final , .Aya_Flight_Details_Final .cards {
+        width: 56.25rem;
+    }
+    .Aya_Flight_Details_Final .part2 .span {
+        width: 5.5rem;
+    }
+    .Aya_Flight_Details_Final .part3 , .Aya_Flight_Details_Final .part4 {
+        width: 53.125rem;
+    }
+    .Aya_Flight_Details_Final .part4 .part4-2 {
+        padding: 0 50px;
+    }
+}
+@media (min-width : 768px) and (max-width : 992px)  {
+    .Aya_Flight_Details_Final , .Aya_Flight_Details_Final .cards{
+        width: 44.8rem;
+    }
+    .Aya_Flight_Details_Final {
+        margin: 0 0 2.5rem 0px;
+    }
+    .Aya_Flight_Details_Final .part3 , .Aya_Flight_Details_Final .part1 , .Aya_Flight_Details_Final .part2 {
+        width: 42rem;
+    }
+    .Aya_Flight_Details_Final .part4 {
+        width: 42rem;
+        gap: 20px;
+    }
+    .Aya_Flight_Details_Final .part4 .part4-2 {
+        gap: 18px;
+    }
+}
+@media(min-width : 576px) and (max-width : 767px)  {
+    .Aya_Flight_Details_Final , .Aya_Flight_Details_Final .cards {
+        width: 32rem;
+        margin: 0 0 2.5rem 0px;
+        height: 25rem;
+    }
+    .Aya_Flight_Details_Final .part2 .span {
+        width: 5.5rem;
+    }
+    .Aya_Flight_Details_Final .part3 , .Aya_Flight_Details_Final .part4 {
+        width: 29rem;
+    }
+    .Aya_Flight_Details_Final .part4 {
+        gap: 5px;
+    }
+    .Aya_Flight_Details_Final .part3  {
+        height: 7rem;
+        flex-direction: column;
+    }
+    .Aya_Flight_Details_Final .part4 .part4-1 , .Aya_Flight_Details_Final .part4 .part4-3 {
+        flex-direction: column;
+    }
+    .Aya_Flight_Details_Final .part4 .part4-2 {
+        margin-top: 3rem;
+        gap: 3px;
+    }
+    .Aya_Flight_Details_Final .part1 , .Aya_Flight_Details_Final .part2 {
+        width: 29rem;
+    }
+}
+@media(min-width : 400px) and (max-width : 575px) {
+    .Aya_Flight_Details_Final , .Aya_Flight_Details_Final .cards {
+        width: 21rem;
+        margin: 0 0 2.5rem 0px;
+        height: 32rem;
+    }
+    .Aya_Flight_Details_Final .part1 .title {
+        font-size: 21px;
+        width: 17rem;
+    }
+    .Aya_Flight_Details_Final .part1 .span {
+        font-size: 26px;
+    }
+    .Aya_Flight_Details_Final .part1 {
+        margin-bottom: 40px;
+        width: 18rem;
+    }
+    .Aya_Flight_Details_Final .part2 {
+        width: 18rem;
+    }
+    .Aya_Flight_Details_Final .part3   {
+        height: 7rem;
+        flex-direction: column;
+    } 
+    .Aya_Flight_Details_Final .part3 , .Aya_Flight_Details_Final .part4 {
+        width: 18rem;
+    }
+    .Aya_Flight_Details_Final .part3 .part3-2 {
+        width: 20.3rem;
+    }
+    .Aya_Flight_Details_Final .part4 {
+        flex-direction: column;
+        margin-top: 3.5rem;
+        gap: 20px;
+    }
+    .Aya_Flight_Details_Final .part4 .part4-2 {
+        width: 10rem;
+    }
+}
+@media(min-width : 320px) and (max-width : 399px) {
+    .Aya_Flight_Details_Final , .Aya_Flight_Details_Final .cards {
+        width: 16.5rem;
+        margin: 0 0 2.5rem 0px;
+        height: 32rem;
+    }
+    .Aya_Flight_Details_Final .part1 .span {
+        font-size: 28px;
+    }
+    .Aya_Flight_Details_Final .part1 .title {
+        width: 11rem;
+        font-size: 18px;
+    }
+    .Aya_Flight_Details_Final .part1 {
+        height: 3.5rem;
+        width: 14rem;
+    }
+    .Aya_Flight_Details_Final .part2 {
+        width: 14rem;
+    }
+    .Aya_Flight_Details_Final .part2 .title {
+        font-size: 14px;
+    }
+    .Aya_Flight_Details_Final .part3-1 {
+        width: 13.5rem;
+        padding: 16px;
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+    .Aya_Flight_Details_Final .part3 {
+        height: 7rem;
+        flex-direction: column;
+        width: 13.5rem;
+    }
+    .Aya_Flight_Details_Final .part3 .part3-2 {
+        width: 13.5rem;
+        gap: 10px;
+        padding: 0;
+        justify-content: flex-start;
+    }
+    .Aya_Flight_Details_Final .part3-2 .img2,.Aya_Flight_Details_Final .part3-2 .img4,.Aya_Flight_Details_Final .part3-2 .img6,.Aya_Flight_Details_Final .part3-2 .img8 
+    {
+        width: 2px;
+        height: 40px;
+    }
+    .Aya_Flight_Details_Final .part4 {
+        flex-direction: column;
+        margin-top: 3.5rem;
+        gap: 20px;
+        align-items: flex-start;
+        width: 13.5rem;
+    }
+    .Aya_Flight_Details_Final .part4 .part4-2 {
+        width: 13rem;
+    }
+    .Aya_Flight_Details_Final .part3 .part3-2 .img1 {
+        width: 1.5rem;
+    }
+}  
+
+
+
+/*Rafif Css*/
+
+
+
+.RH_Flight_Details_Final {
+    margin: 0 40px 40px 80px;
+    background: #FAFAFA;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.RH_Flight_Details_Final .part1 .span {
+    width: 92px;
+    height: 39px;
+    padding: 4.5px 0 4.5px 4.5px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: var(--main-font);
+    font-size: var(--medium-font-size);
+    font-weight: var(--fourth-font-weight);
+    line-height: 39.01px;
+    /* text-align: right; */
+    color: var(--price-color);
+}
+.RH_Flight_Details_Final .part2 .span {
+    width: 76px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0.75px;
+    font-family: var(--main-font);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.38px;
+    text-align: left;
+    color: #112211;
+}
+.RH_Flight_Details_Final .part1 .title {
+    width: 293px;
+    height: 30px;
+    gap: 0px;
+    padding: 4.5px 4.5px 4.5px 0 ;
+    margin: 0;
+    font-family: var(--second-font);
+    font-size: var(--second-medium-font-size);
+    font-weight: var(--fourth-font-weight);
+    line-height: 30.31px;
+    text-align: left;
+    color: #112211;
+}
+.RH_Flight_Details_Final .part2 .title {
+    width: 168px;
+    height: 20px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: var(--second-font);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.21px;
+    text-align: left;
+    color: #112211;
+    margin: 0;
+    padding-bottom: 4px;
+}
+.RH_Flight_Details_Final .cards {
+   width: auto;
+    height: 349px;
+    padding: 32px 24px 32px 24px;
+    gap: 24px;
+    border-radius: 12px 12px 12px 12px;
+    opacity: 1;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px 0px #1122110D;
+    border: none;
+    margin: 0 auto;
+    margin-left:104px ;
+    margin-right: 104px;
+}
+.RH_Flight_Details_Final .card-body {
+    padding: 0;
+}
+.RH_Flight_Details_Final .part2  {
+    margin: 24px 0;
+    flex-wrap: wrap!important;
+}
+.RH_Flight_Details_Final .part3 .part3-1 .image{
+    width: 64px;
+    height: 44.49px;
+    gap: 0px;
+    opacity: 0px;
+    /* margin: 20.76px 4.76px 20.76px 32px; */
+}
+.RH_Flight_Details_Final .part3 {
+    width: auto!important;
+    height: 86px;
+    gap: 0px;
+    display: flex;
+    justify-content: space-between;
+    /* justify: space-between; */
+    opacity: 0px;
+    /* background-color: aqua; */
+}
+.RH_Flight_Details_Final .part3-1 {
+    width: 262px;
+    height: 86px;
+    padding: 16px 32px 16px 32px;
+    gap: 24px;
+    border-radius: 8px;
+    border: 0.5px 0px 0px 0px;
+    opacity: 0px;
+    border: 0.5px solid #FF8500
+}
+.RH_Flight_Details_Final .part3 .part3-1 .p {
+    width: 110px;
+    height: 54px;
+    gap: 8px;
+    opacity: 0px;
+}
+.RH_Flight_Details_Final .part3 .part3-1 .p .span1 {
+    width: 110px;
+    height: 29px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: var(--main-font);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.26px;
+    text-align: left;
+    color: #112211;
+}
+.RH_Flight_Details_Final .part3 .part3-1 .p .span1 {
+    width: 86px;
+    height: 17px;
+    gap: 0px;
+    opacity: 0.6px;
+    font-family: var(--main-font);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.07px;
+    text-align: left;
+    color: #112211;
+}
+
+.RH_Flight_Details_Final .part3 .part3-2 {
+    width: 360px;
+    height: 80px;
+    padding: 16px 24px 16px 24px;
+    margin-right: 3px 0;
+    gap: 12px;
+    border-radius: 12px 0px 0px 0px;
+    opacity: 0px;
+    /* background-color: #FF8500; */
+    display: flex;
+    align-items:center;
+    justify-content: end;
+    margin-right: -10px!important;
+}
+.RH_Flight_Details_Final .part3 .part3-2 .image-airplane {
+    width: 24px;
+    height: 24px;
+    top: 2.25px;
+    left: 0.75px;
+    gap: 0px;
+    opacity: 0px;
+    color: #112211;
+    /* border-right: 1px solid #D7E2EE; */
+    border-radius: 0;
+    /* margin-right: 12px; */
+}
+
+.RH_Flight_Details_Final .part4-2 img.img1 {
+   padding-right: 24px;
+}
+.RH_Flight_Details_Final .part4-2 img.img3 {
+    padding-left: 24px;
+ }
+
+.RH_Flight_Details_Final .part3 .part3-2 .card-img{
+    width: 24px;
+    height: 24px;
+}
+.RH_Flight_Details_Final .part3 .part3-2 .img.Card.Img {
+    width: 24px!important;
+    height: 24px!important;
+    padding: 5.11px 3.01px 4.5px 3.01px;
+    gap: 0px;
+    opacity: 0px;
+    color: #112211;
+    /* border-right: 1px solid #D7E2EE; */
+    border-radius: 0;
+}
+/*
+.RH_Flight_Details_Final .part3 .part3-2 .image-stopwatch {
+    opacity: 0px;
+    color: #112211;
+    width: 24px;
+    height: 24px;
+    top: 2.25px;
+    left: 3px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 0;
+}
+.RH_Flight_Details_Final .part3 .part3-2 .image-fast-food {
+    width: 24px;
+    height: 24px;
+    opacity: 0px;
+    color: #112211;
+    border-radius: 0;
+}
+.RH_Flight_Details_Final .part3 .part3-2 .image-round-airline {
+    width: 24px; 
+    height: 24px;
+    padding: 1.99px 4.42px 2.93px 4px;
+    opacity: 0px;
+    color: #112211;
+    border-radius: 0;
+}
+
+*/
+.RH_Flight_Details_Final .part4 {
+    width: auto!important;
+    height: 48px;
+    /* justify: space-between; */
+    opacity: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    /* padding-right: 24px; */
+}
+.RH_Flight_Details_Final .card-img{
+    width: auto;
+}
+.RH_Flight_Details_Final .part4 .card-img .image-line5{
+    width: 36px!important;
+    height: 0px;
+    gap: 0px;
+   border: 1px 0px 0px 0px;
+    opacity: 0px;
+     margin: 24px 0;
+}
+
+.RH_Flight_Details_Final .part4-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.RH_Flight_Details_Final .part4-3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.RH_Flight_Details_Final .part4-2{
+padding: 0 80px;
+}
+
+
+
+.RH_Flight_Details_Final .part4 .image-vector {
+    width: 48px;
+    height: 39px;
+    top: 4.5px;
+    left: 1.5px;
+    gap: 0px;
+    opacity: 0px;
+    color: #112211;
+    margin: 0 24px!important;
+}
+.RH_Flight_Details_Final .part4 .card-img .image-line6 {
+    width: 36px;
+    height: 0px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    color: #112211;
+}
+.RH_Flight_Details_Final .part4 .span1 , .RH_Flight_Details_Final .part4 .span3  {
+    height: 29px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: var(--main-font);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.26px;
+    text-align: left;
+    color: #112211;
+    margin: 0;
+    padding-right: 16px;
+}
+.RH_Flight_Details_Final .part4 .span2 , .RH_Flight_Details_Final .part4 .span4 {
+    height: 20px;
+    margin: 0;
+    gap: 0px;
+    opacity: 60%;
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.5px;
+    text-align: left;
+    color: #112211;
+}
+
+
+@media screen and (max-width: 1352px){
+
+    .RH_Flight_Details_Final .cards{
+        margin-left: 40px;
+    margin-right: 40px;
+    flex-wrap: wrap;
+    padding-left: 15px!important;
+
+    }
+   
+    .RH_Flight_Details_Final .part2 {
+        width: auto!important;
+    }
+    
+
+  .RH_Flight_Details_Final .part4{
+    width: auto!important;
+  }
+
+  .RH_Flight_Details_Final .part3-1{
+    width: auto!important;
+  }
+  .RH_Flight_Details_Final .part3 .part3-2{
+    width: auto!important;
+  }
+
+
+
+}
+
+@media screen and (max-width: 930px)
+{
+    .RH_plane-mobile{
+        margin: 0 20px!important;
+    }
+    .RH_Flight_Details_Final .part4-2 {
+        padding: 0 10px!important;
+      }
+}
+
+@media screen and (max-width: 864px)
+    
+
+{
+    .RH_Flight_Details_Final .cards{
+        height: min-content!important;
+    }
+    .part3 {
+        width: auto!important;
+        flex-wrap: wrap!important;
+    }
+  
+    .RH_Flight_Details_Final .part2 {
+        width: auto!important;
+        justify-content: start!important;
+    }
+    
+    .RH_Flight_Details_Final .part4 .span1{
+        padding-right: 8px!important;
+        font-size: 18px!important;
+    }
+}
+
+@media screen and (max-width: 838px)
+    
+
+{
+
+    .RH_Flight_Details_Final .part4{
+        margin-top: 65px!important;
+    }
+   
+    .RH_Flight_Details_Final .part4{
+        width: auto!important;
+height: auto;    }
+
+    
+    .RH_Flight_Details_Final .part4 .span1,.RH_Flight_Details_Final .part4 .span3{
+        padding-right: 2px!important;
+        font-size: 18px!important;
+    }
+    .RH_Flight_Details_Final .part4 {
+        width: auto !important;
+height: auto;     
+   flex-wrap: warp;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .RH_Flight_Details_Final .part4 .span2,  .RH_Flight_Details_Final .part4 .span4{
+        font-size: 14px!important;
+    }
+}
+
+
+@media screen and (max-width: 778px)
+    
+
+{
+  
+    .RH_Flight_Details_Final .part4 .span1,.RH_Flight_Details_Final .part4 .span3{
+        padding-right: 27px!important;
+        font-size: 16px!important;
+    }
+    .RH_Flight_Details_Final .part4 .image-vector{
+        margin: 0 8px!important;
+    }
+  
+}
+
+
+
+@media  (max-width: 560px)
+    
+
+{
+    .RH_Flight_Details_Final .part2{
+        justify-content: start!important;
+        flex-wrap: warp!important;
+    }
+    .RH_Flight_Details_Final .part3 .part3-2{
+        width: auto!important;
+        gap: 2px!important;
+        flex-wrap: warp!important;
+
+    }
+
+   
+}
+
+
+
+@media screen and (max-width: 360px)
+    
+
+{
+    .RH_Flight_Details_Final .part3 .part3-2{
+        width: auto!important;
+        gap: 1px!important;
+    }  
+    .RH_Flight_Details_Final .part3-1{
+        gap: 13px!important;
+    }
+}
+
+
+
+@media screen and (max-width: 370px)
+    
+
+{
+    .RH_Flight_Details_Final .part3-1{
+        width: auto!important;
+        padding:16px 24px 16px 24px;
+      }
+
+      .RH_Flight_Details_Final .part2 .span{
+        font-size: 13px!important;
+      }
+  
+    
+}
+
+@media screen and (max-width: 330px)
+    
+
+{
+    .RH_Flight_Details_Final .part3-1{
+        width: auto!important;
+        padding:16px 16px 16px 16px;
+      }
+    
+      
+
+   
+}

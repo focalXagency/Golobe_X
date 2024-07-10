@@ -1,0 +1,56 @@
+.MS-ReviewesSection {
+    overflow-x: hidden;
+    padding-bottom: 241px;
+}
+.MS-container{
+    margin: 0 var(  --main-padding);
+}
+.MS-pargraphReview{
+    font-weight:var(  --main-font-weight);
+    line-height: var(  --xxxsmall-line-hieght);
+    color:var(  --black-color);
+}
+.MS-ReviewesSection button{
+    border-radius:4px;
+    Padding:8px 16px 8px 16px;
+    border: 1px solid var( --main-bgcolor);
+    background-color: var(--second-text-color);
+    font-size:var(  --xxsmall-font-size) ;
+    font-weight: var(  --second-font-weight);
+    transition: all 0.7s;
+}
+.MS-reviewCards{
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    gap: 48px;
+    margin-left:var(  --main-padding)  !important;
+}
+.MS-ReviewesSection button:hover{
+    background-color: var(--main-bgcolor);
+    }
+    @media (min-width:1500px) {
+        .MS-reviewCards{
+            margin: 0 var(--main-padding);
+            justify-content: space-between;
+        }
+    }
+@media (max-width:992px) {
+    .MS-ReviewesSection{
+        overflow-x:visible;
+    }
+      .MS-reviewCards{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0!important;
+    }
+    .MS-container,.MS-ReviewesSection{
+        margin: 0 30px;
+    }
+}
+@media (max-width:576px) {
+    .MS-pargraphReview{
+        text-align: center;
+    }
+}

@@ -1,0 +1,46 @@
+.custom-tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center !important;
+    width: 840px;
+    max-height: 80px;
+    padding: 16px 24px 16px 24px;
+    gap: 48px;
+    border-radius: 12px;
+}
+.NM_HotelListing {
+    background-color: #FAFBFC;
+}
+.AM_flightlist .tab-title {
+    display: block;
+    width: 78px;
+    height: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.5px;
+    text-align: left ;
+    color: black;
+}
+
+.AM_flightlist .tab-title small {
+    color: #a0a7a0;
+    width: 87px;
+    max-height: 17px;
+    gap: 4px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+    text-align: left;
+
+}
+
+.AM_flightlist .nav-link {
+    width: 160px;
+    max-height: 45px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

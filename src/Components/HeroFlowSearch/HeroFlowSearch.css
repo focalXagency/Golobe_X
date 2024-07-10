@@ -1,0 +1,6 @@
+.OS_HeroSearch {
+    background: linear-gradient(90deg, rgba(0, 35, 77, 0.63) 11.46%, rgba(0, 35, 77, 0) 77.37%), url(./../../assets/images/Flight-search-hero.png )!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    width: 100%!important;
+}

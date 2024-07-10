@@ -1,0 +1,84 @@
+.MS-headAcord{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    cursor: pointer;
+}
+.accordion-item{
+    border-bottom: 0.5px solid #D7E2EE;;
+    padding: 32px 0;
+}
+.accordion-item:first-child{
+    padding-top: 16px;
+}
+.accordion-item:last-child{
+    border: none;
+}
+.MS-headAcord p{
+font-weight: var(  --third-font-weight);
+line-height: var(  --xxxsmall-line-hieght);
+color: var(--main-text-color);
+}
+.MS-rating{
+    display: flex;
+    flex-wrap: wrap;
+}
+.MS-rating p{
+    padding: 8px 16px ;
+    border-radius: 4px;
+    border: 1px solid var(--main-bgcolor);
+    margin-right: 16px;
+    width: 40px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(   --xxxsmall-font-size);
+    font-weight: var( --second-font-weight);
+    line-height: var( --small-line-hieght);
+    cursor: pointer;
+}
+.MS-rating p:hover{
+background-color: var(--main-bgcolor);
+}
+.MS-RedPargraph{
+font-size: var(--xxsmall-font-size);
+font-weight: var(  --fourth-font-weight);
+line-height: var(   --xxsmall-line-hieght);
+color:var(  --second-acount-color);
+}
+.MS-lable{
+    cursor: pointer;
+    font-size: var( --xxsmall-font-size);
+    font-weight: var( --second-font-weight);
+    line-height:var(  --xxsmall-line-hieght);
+    color: var(--main-text-color);
+    margin-left: 8px;
+}
+.MS-check-box{
+    display: flex;
+    align-items: center;
+    padding-bottom: 8px;
+    width: max-content;
+}
+.MS-check-box input[type="checkbox"] {
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    background-color:transparent;
+    border: 2px solid var(--main-text-color);
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.MS-check-box input[type="checkbox"]:checked {
+    background-color: var(--main-bgcolor); 
+}
+.arrow {
+    transition: transform 0.5s ease;
+  }
+  
+  .arrow.open {
+    transform: rotate(180deg);
+  }

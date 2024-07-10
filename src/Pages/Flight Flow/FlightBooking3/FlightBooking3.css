@@ -1,0 +1,43 @@
+.MH-FlightBooking {
+    background-color: #FAFAFA;
+}
+.MH-flight-content {
+    display: flex;  
+    justify-content: space-between;
+    padding: 0 5rem;
+}
+.MH-FlightBooking .MS-newsletter {
+    margin-top: 188.17px;
+}
+ @media (max-width:1100px) {
+    .MH-flight-content {
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+    .MH-content1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .MH-FlightBooking3 .MH-content1 .Aya_Flight_Details_Final {
+        margin-right: 0;
+    }
+    .MH-FlightBooking .Aya-path {
+        width: 100%;
+        text-align: center;
+    }
+ }
+ @media (max-width:992px) {
+    .MH-flight-content{
+        padding: 0 1.875rem;
+    }
+    .MH-FlightBooking .MS-newsletter {
+        margin-top: 100px;
+    }
+    .MH-FlightBooking {
+        padding-top: 96px;
+    }
+
+ }
+
+    

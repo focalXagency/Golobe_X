@@ -1,0 +1,135 @@
+.RH_Emirates {
+    background-color: #fcb365;
+   width: auto;
+    height: 102px;
+    padding: 16px;
+    margin: 0 auto;
+    border-radius: 8px;
+  margin: 40px 104px!important;
+}
+
+.RH_title{
+font-family: var(--second-font);
+font-size: var(--second-medium-font-size);
+font-weight: 700;
+color: var(--main-text-color);
+line-height: var(--xxmedium-line-hieght);
+text-align: left;
+
+}
+.RH_container_time{
+    width: 1200px;
+    display: flex;
+    
+}
+
+
+
+.RH_time{
+    padding-right: 16px;
+   
+}
+.RH_time_text{
+    width: 531px;
+    height: 20px;
+    font: var(--main-font);
+  font-size: var(--xsmall-font-size);
+  font-weight: var(--second-font-weight);
+  line-height: var(--xxxsmall-line-hieght);
+  color: var(--main-text-color);
+}
+
+.RH_w1{
+    width: 571px;
+    height: auto;
+    gap: 16px;
+
+}
+.RH_time_text2{
+    width: 508px;
+    height: 20px;
+    font: var(--main-font);
+  font-size: var(--xsmall-font-size);
+  font-weight: var(--second-font-weight);
+  line-height: var(--xxxsmall-line-hieght);
+  color: var(--main-text-color);
+}
+.RH_w2{
+    width: 508px;
+    height: auto;
+    gap: 16px;
+}
+
+
+
+@media screen and (max-width:1352px){
+    .RH_Emirates{
+
+      flex-wrap: wrap;
+      width: auto!important;
+      height: auto!important;
+      margin-left: 40px!important;
+      margin-right: 40px!important;
+
+    }
+    .RH_container_time {
+      width: auto;
+      display: flex;
+      flex-wrap: wrap;
+      height: auto;
+    }
+
+}
+
+@media screen and (max-width:1308px){
+
+ 
+
+      .RH_container_time {
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+      }
+  
+
+    
+    }
+
+
+    @media screen and (max-width:522px){
+
+ 
+.RH_w2{
+}
+  
+
+    
+    }
+
+    
+    @media screen and (max-width:414px){
+      .RH_container_time {
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+        height: auto!important;
+        padding-bottom: 30px;
+      }
+  
+ 
+      .RH_w2{
+      }
+        
+      
+          
+          }
+
+          @media (max-width:330px) {
+ 
+        
+      .RH_w2{
+        margin-top: 20px;
+      }
+        
+          }

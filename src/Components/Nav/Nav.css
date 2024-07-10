@@ -1,0 +1,561 @@
+.NM_NavBar {
+    width: calc(100% - 60px);
+    background: transparent;
+    padding: 36px 32px;
+    height: 96px;
+    font-size: var(--xxsmall-font-size);
+    font-weight: var(--third-font-weight);
+    line-height: var(--xxsmall-line-hieght);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    right: var(--main-padding-home);
+    transition: background 0.3s ease, width 0.3s ease;
+    z-index: 100;
+}
+
+.NM_NavBar.scrolled {
+    background-color: var(--fourth-bgcolor); 
+    box-shadow: 0px 4px 16px 0px #1122110D;
+    top: 0;
+    width: 100%;
+    right: 0;
+    left: 0;
+}
+
+.NM_Start {
+    width: 242px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.NM_Start a {
+    text-decoration: none;
+    color: var(--second-text-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4px;
+    transition: .1s all ease-in-out;
+}
+
+.NM_NavBar.scrolled a,
+.AM_Navbar.scrolled a {
+  color: var(--main-text-color); 
+}
+
+.NM_Start a img {
+    width: 22.5px;
+    height: 19.5px;
+}
+
+.NM_FindFlight {
+    width: 107px;
+}
+
+.NM_FindStays {
+    width: 103px;
+}
+
+.NM_Logo {
+    width: 110.36px;
+    height: 36px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 30px;
+}
+
+.NM_Buttons {
+    width: 177px;
+    height: 48px;
+    right: 32px;
+    position: absolute;
+}
+
+.NM_Buttons button {
+    border: none;
+}
+
+.NM_Login {
+    width: 73px;
+    padding: 15.5px 32px 15.5px 0;
+    background-color: transparent;
+}
+
+.NM_Signup {
+    width: 104px;
+    padding: 15.5px 24px;
+    border-radius: 8px;
+    background-color: var(--second-text-color);
+}
+
+.NM_Signup.Scrolled {
+    background-color: var(--main-text-color);
+    color: var(--second-text-color);
+}
+
+.NM_Signup a.Scrolled {
+    background-color: var(--main-text-color);
+    color: var(--second-text-color);
+}
+
+.NM_LoginN {
+    width: 73px;
+    padding: 15.5px 0 15.5px 0;
+    border-radius: 8px;
+    background-color: transparent;
+    text-align: end;
+}
+
+.NM_SignupNn {
+    width: 104px;
+    padding: 15.5px 24px;
+    border-radius: 8px;
+    background-color: var(--second-text-color);
+}
+
+.NM_LinkLogin,
+.NM_LinkSignup {
+    text-decoration: none;
+}
+
+.NM_LinkLogin {
+    color: var(--second-text-color);
+}
+
+.NM_LinkSignup {
+    color: var(--black-color);
+}
+
+.NM_ToggleButton {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+    position: fixed;
+    right: 37px;
+    top: 42px;
+}
+
+.NM_ToggleButton span {
+    width: 25px;
+    height: 2px;
+    margin-bottom: .3rem;
+    background-color: var(--main-bgcolor);
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.NM_End.open {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding-top: 10rem;
+    align-items: start;
+    gap: 2rem;
+    background-color: var(--fourth-bgcolor);
+    width: 14rem;
+    border-top-left-radius: 30px;
+    box-shadow: -31px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.NM_End {
+    height: 3rem;
+    display: none;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    right: -7px;
+}
+
+.NM_ToggleButton.open {
+    right: 170px;
+    top: 42px;
+    display: flex;
+    flex-direction: row;
+    gap: .3rem;
+    z-index: 100;
+}
+
+.NM_ToggleButton.open span {
+    width: 2px;
+    height: 25px;
+    opacity: 0.7;
+}
+
+.NM_End.open .NM_Link {
+    text-decoration: none;
+    color: var(--main-text-color);
+    position: relative;
+}
+
+.NM_End.open .NM_Link:hover {
+    color: var(--main-bgcolor);
+}
+
+.NM_End.open .NM_Link:hover::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    display: block;
+    margin-top: 5px;
+    right: 0;
+    background: var(--main-bgcolor);
+    transition: width .5s ease;
+    -webkit-transition: width .5s ease;
+}
+
+.NM_ToggleButton.open::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    width: 100vw;
+    height: 1px;
+    background-color: #E1E1E1;
+}
+
+@media screen and (min-width:2200px) {
+    .NM_NavBar {
+        width: 100vw;
+        background: rgba(0, 0, 0, 0.8);
+        top: 0;
+        right: 0;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .NM_ToggleButton {
+        display: none;
+    }
+}
+
+@media screen and (max-width:992px) {
+
+    .NM_Start,
+    .NM_Buttons {
+        display: none;
+    }
+
+    .NM_Logo {
+        height: 27px;
+        width: 105px;
+        left: 24px;
+        transform: translateX(0%);
+    }
+
+    .NM_NavBar {
+        width: calc(100% - 14px);
+        left: var(--small-padding);
+    }
+}
+
+/* ------------------------------------------------Whitebg nav------------------------------------------------ */
+/* ------------------------------------------------Whitebg nav------------------------------------------------ */
+/* ------------------------------------------------Whitebg nav------------------------------------------------ */
+.AM_Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: var(--fourth-bgcolor);
+    padding: 36px var(--main-padding);
+    height: 96px;
+    font-size: var(--xxsmall-font-size);
+    font-weight: var(--third-font-weight);
+    line-height: var(--xxsmall-line-hieght);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    color: var(--main-text-color);
+    box-shadow: 0px 4px 16px 0px #1122110D;
+}
+
+.AM_Start {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 242px;
+    min-height: 24px;
+    gap: 32px;
+    opacity: 0px;
+}
+
+.AM_FindFlight {
+    min-width: 79px;
+    min-height: 17px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.07px;
+    text-align: left;
+    text-decoration: none;
+    color: inherit;
+}
+
+.AM_Plane {
+    display: inline-block;
+    padding-right: 4.75px;
+    padding-bottom: 10px;
+}
+
+.AM_FindStays {
+    min-width: 103px;
+    min-height: 24px;
+    gap: 4px;
+    opacity: 0px;
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.07px;
+    text-align: left;
+
+}
+
+.AM_Bed {
+    display: inline-block;
+    min-width: 21px;
+    min-height: 16.5px;
+    margin-bottom: 8.5px;
+    margin-left: 1px;
+}
+
+.AM_Logo {
+    min-width: 110.36px;
+    min-height: 36px;
+    margin-right: 43px;
+    margin-bottom: 10px;
+}
+
+.AM_Buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    min-width: 260px;
+    min-height: 45px;
+    /* gap: 32px; */
+    opacity: 0px;
+}
+
+.AM_Buttons a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.AM_Favourite {
+    width: 75px;
+    height: 17px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.07px;
+    text-align: left;
+    padding-left: 4px;
+}
+
+.AM_Client {
+    width: 55px;
+    height: 17px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.07px;
+    text-align: left;
+    padding-left: 4px;
+}
+
+.FavouritesImg {
+    width: 19.5px;
+    height: 18px;
+    top: 3px;
+    left: 2.25px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.ClientImg {
+    width: 45px;
+    height: 45px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.AM_dash {
+    width: 5px;
+    height: 17px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.07px;
+    text-align: left;
+}
+
+.arrowDown {
+    position: absolute;
+    right: 9.5rem;
+    top: 3.6rem;
+    width: 14px;
+    height: 14px;
+}
+
+.AM_End.open {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding-top: 10rem;
+    align-items: start;
+    gap: 2rem;
+    background-color: #ffffffee;
+    width: 14rem;
+    border-top-left-radius: 30px;
+    box-shadow: -31px 0px 20px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    color: black !important;
+}
+
+.AM_End.open .NM_Link,
+.AM_End.open .AM_Link {
+    text-decoration: none;
+    color: var(--main-text-color);
+    position: relative;
+}
+
+.AM_End.open .AM_Link {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 110%;
+    justify-content: space-between;
+}
+
+.user-profile {
+    padding-top: 173px;
+}
+.AM_AccountList {
+    position: absolute;
+    width: 329px;
+    height: 363px;
+    top: 77px;
+    left: 994px;
+    padding: 32px;
+    gap: 24px;
+    border-radius: 12px;
+    opacity: 0px;
+    background-color: #FFFFFF;
+}
+.AM_Toplist {
+    display: flex;
+    justify-content: start;
+    width: 265px;
+    max-height:64px;
+    gap: 16px;
+}
+.account-client {
+    width: 64px;
+    height: 64px;
+}
+.username-accountlist {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.5px;
+    text-align: left;
+    margin-bottom: 0;
+}
+.connect-status {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+    text-align: left;
+    color: #112211 !important;
+}
+.AM_Toptextlist {
+    padding-top: 10px;
+    width: 185px;
+    height: 41px;
+    gap: 4px;
+}
+.AM_AccountLinks, .AM_SupportLinks {
+    display: flex;
+    flex-direction: column;
+}
+.AM_AccountLinks {
+    max-width: 265px;
+    max-height: 86px;
+    gap: 16px;
+}
+.AM_Link1 {
+    color: inherit;
+    text-decoration: none;
+    position: relative;
+}
+.AM_Link1::after {
+    content: '';
+    position: absolute;
+    width: 4.5px;
+    height: 9px;
+    top: 3.5px;
+    right: 10px;
+    color: black;
+    border: 1.5px ;
+    background-image: url(../../assets/images/rightarrow.svg);
+
+}
+/* by Noura */
+
+.AM-Bed.AM-margin{
+    margin-right: 3.5px;
+}
+/* ------------------------------------------------Whitebg nav------------------------------------------------ */
+/* ------------------------------------------------Whitebg nav------------------------------------------------ */
+/* ------------------------------------------------Whitebg nav------------------------------------------------ */
+
+@media screen and (min-width:2200px){
+    .NM_NavBar{
+        width: 100vw;
+        background: rgba(0, 0, 0, 0.8);
+        top: 0;
+        right: 0;
+    }
+}
+@media screen and (min-width: 992px) {
+    .NM_ToggleButton {
+        display: none;
+    }
+}
+
+@media screen and (max-width:992px) {
+    
+    .NM_Start,
+    .NM_Buttons, .AM_Start, .AM_Buttons {
+        display: none;
+    }
+    .AM_Toggle {
+        display: block !important;
+    }
+    .AM_Logo {
+        margin-left: -70px !important;
+        margin-top: 18px;
+    }
+    .NM_Logo {
+        height: 27px;
+        width: 105px;
+        left: 24px;
+        transform: translateX(0%);
+    }
+
+    .NM_NavBar {
+        width: calc(100% - 14px);
+        left: var(--small-padding);
+    }
+}

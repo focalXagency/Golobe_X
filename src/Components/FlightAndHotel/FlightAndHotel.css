@@ -1,0 +1,21 @@
+.MS-FlightAndHotel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding-bottom: 70px;
+    margin: 0 104px;
+    overflow: hidden;
+}
+@media (min-width:1500px) {
+    .MS-FlightAndHotel{
+        justify-content: space-between;
+    }
+}
+@media (max-width: 992px) {
+    .MS-FlightAndHotel{
+        flex-wrap: wrap;
+        margin: 0 30px;
+    }
+
+}

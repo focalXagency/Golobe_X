@@ -1,0 +1,164 @@
+.AM_flightComponent {
+    display: flex;
+    gap: 24px;
+    max-width: 52.5rem;
+    height: 286.5px;
+    padding: 24px 16px 24px 16px;
+    border-radius: 12px;
+    background-color: white;
+    margin-bottom: 32px;
+    box-shadow: 0px 4px 16px 0px #1122110D;
+    position: relative;
+}
+
+.AM_flightComponent .syrianAirLogo {
+    width: 160px;
+    height: 158.22px;
+}
+.AM_flightComponent .chamWIngsLogo {
+    width: 160px;
+    height: 39.72px;
+}
+.AM_flightComponent .qatarAirwaysLogo {
+    width: 160px;
+    height: 89.6px;
+}
+.AM_flightComponent .etihadLogo {
+    width: 160px;
+    height: 56.87px;
+
+}
+.AM_content {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    width: 100%;
+}
+.rate {
+ display: flex;   
+ justify-content: center;
+ align-items: center;
+}
+.rating {
+    width: 40px;
+    height: 32px;
+    padding: 8px;
+    gap: 4px;
+    border-radius: 4px;
+    border: 1px solid #FF8500;
+    font-size: 12px;    
+    font-weight: 500;
+    text-align: center !important;
+}
+.review {
+    width: 141px;
+    height: 15px;
+    font-size: 12px;
+    line-height: 14.63px;
+    text-align: left;
+    padding-left: 8px;
+    padding-bottom: 30px;
+}
+.firstRow {
+    max-height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.priceItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 24px;
+    right: 40px;
+}
+.captionPrice {
+    width: 100%;
+    margin: 0;
+    text-align: end;
+    height: 15px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.63px;
+}
+.price {
+    width: 100%;
+    text-align: end;
+    height: 29px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.26px;
+    color: #71AA27;
+
+}
+.secRow {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+}
+/* For checkbox */
+.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root {
+    width: 18px;
+    height: 18px;
+    padding: 3px !important;
+    margin-left: 3px !important;
+    border-color: #b8bdb8 !important;
+}
+/* For checkbox */
+.textRow {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 40px;
+    margin-left: 12px;
+}
+.foorterflightitem {
+    width: 100%;
+    height:48px;
+}
+.btnsFooterFlight {
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+    width: 100%;
+}
+.favBtn {
+    width:  48px;
+    height: 48px;
+    background-color: transparent;
+    border: 1px solid #FF8500
+}
+.AM_BtnLink {
+    width: 89.33%;
+}
+.dealBtn {
+    /* width: 33.5rem; */
+    height: 48px;
+    padding: 8px 16px 8px 16px;
+    gap: 4px;
+    border-radius: 4px;
+    background-color: #FF8500;
+    border: 0;
+    width: 89.33%;
+}
+.AM_FooterLine {
+    width: 100%;
+}
+@media screen and (max-width:1439px) {
+    .firstRow {
+        width: 35rem;
+        justify-content: start;
+    }
+    .AM_content {
+        align-items: start;
+    }
+}
+/* 
+16.75 1440
+x      1000
+11.63194
+1.163194444 */

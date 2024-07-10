@@ -1,0 +1,44 @@
+.MH-booking-content {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.MH-Hotelbooking2 {
+    background-color: #FAFAFA;
+}
+.MH-Hotel-main {
+    padding: 0 5rem;
+}
+.MH-Hotelbooking2 .Aya-path {
+    padding-left:1rem ;
+}
+.MH-Hotelbooking2 .MS-newsletter {
+    margin-top: 188.17px;
+}
+@media (max-width:1100px) {
+    .MH-Hotelbooking2 .Aya-Flight_Card .hoteltCards {
+        margin-bottom: 40px;
+    }
+    .MH-Hotelbooking2 .Aya_Hotel_Details_Final {
+        margin-right: 0;
+    }
+    .MH-booking-content {
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+    .MH-Hotelbooking2 .Aya-path  {
+        width: 100%;
+        text-align: center;
+    }
+}
+@media (max-width:992px) {
+    .MH-Hotel-main {
+        padding: 0 1.875rem;
+    }
+    .MH-Hotelbooking2 .MS-newsletter {
+        margin-top: 100px;
+    }
+    .MH-Hotelbooking2 {
+        padding-top: 96px;
+    }
+}

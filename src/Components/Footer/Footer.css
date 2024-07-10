@@ -1,0 +1,108 @@
+.NM_Footer{
+    width: 100%;
+    padding: 218px var(--main-padding) 64px var(--main-padding);
+    background-color: var(--main-bgcolor);
+    color: var(--main-text-color);
+}
+.NM_Content{
+    height: 140px;
+    width: 100%;
+    display: flex;
+    gap: 140px;
+}
+.NM_LogoIcons img{
+    width: 120px;
+    height: 39.15px;
+}
+.NM_Icons{
+    width: 120px;
+    padding-top: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.NM_Icons div{
+    width: 20px;
+    height: 20px;
+}
+.NM_Facebook img{
+    width: 18px;
+    height: 18px;
+}
+.NM_Twitter img{
+    width: 18.92px;
+    height: 15.38px;
+}
+.NM_Youtube img{
+    width: 20px;
+    height: 13.34px;
+}
+.NM_Instagram img{
+    width: 17px;
+    height: 17px;
+}
+.NM_Right{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.NM_Right h6{
+font-size: var(--xsmall-font-size);
+font-weight: var(--fourth-font-weight);
+line-height: var(--medium-line-hieght);
+text-align: left;
+margin-bottom: 16px;
+
+}
+.NM_Right p{
+font-size: var(--xxsmall-font-size);
+font-weight: var(--second-font-weight);
+line-height: var(--xxsmall-line-hieght);
+text-align: left;
+margin-bottom: 0;
+width: 100%;
+}
+.NM_Right a {
+    text-decoration: none;
+    color: var(--main-text-color);
+    transition: all .2s ease-in-out;   
+}
+.NM_Destinations, .NM_Activities, .NM_Blogs, .NM_About, .NM_Contact{
+    display: flex;
+    flex-direction: column;
+    height: 140px; 
+    width: 175.2px;
+}
+.NM_Right a:hover{
+    color: var(--second-text-color);
+}
+@media screen and (max-width:1352px){
+    .NM_Right{
+        flex-wrap: wrap;
+    }
+    .NM_Content{
+        height: max-content;
+    }
+}
+@media screen and (max-width:1057px){
+    .NM_Footer{
+        padding-bottom: 20px;
+    }
+}
+@media screen and (max-width:992px){
+    .NM_Content{
+        gap: 70px;
+    }
+    .NM_Right{
+        gap: 10px;
+    }
+    .NM_Footer{
+        padding: 218px var(--main-padding-home) 20px var(--main-padding-home);
+    }
+}
+@media screen and (max-width:857px){
+    .NM_Content{
+        flex-wrap: wrap;
+    }
+}
+

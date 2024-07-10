@@ -1,0 +1,330 @@
+    /*Section One Style*/
+    
+    .OS_one_Title {
+        display: flex;
+        padding: 80px 104px 24px 104px;
+    }
+    
+    .OS_Title_Map h3 {
+        font-size: var(--medium-font-size);
+        font-weight: var(--third-font-weight);
+        line-height: var(--xxxmedium-line-hieght);
+    }
+    
+    .OS_Title_Map p {
+        font-size: var( --xsmall-font-size);
+        font-weight: var(--main-font-weight);
+        line-height: var( --xxxsmall-line-hieght);
+        width: max-content;
+    }
+    
+    .OS_Button_Book button:hover {
+        background-color: var(--main-bgcolor);
+        transition: all 1s;
+    }
+    
+    .OS_Map {
+        height: 30.375rem;
+        background-color: var(--main-bgcolor);
+        position: relative;
+    }
+    
+    .Map-Image {
+        padding-left: 6.0625rem;
+        width: 76.875rem;
+        height: 100%;
+    }
+    /*one frame style*/
+    
+    .OS-map {
+        background-color: white;
+        position: absolute;
+        width: 8.8125rem;
+        height: 3rem;
+        border-radius: 4px;
+        padding: 4px 8px 4px 4px;
+        display: flex;
+    }
+    
+    .OS-map-frame {
+        top: 4.5rem;
+        left: 18.0625em;
+    }
+    
+    .OS-map-frame1 {
+        padding-left: 8px;
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+    }
+    
+    .OS-map-frame1 h6 {
+        font-size: var(--xxxxsmall-font-size);
+        font-weight: var(--fourth-font-weight);
+        line-height: var(--xxxxsmall-line-hieght);
+        color: var(--main-text-color);
+    }
+    
+    .OS-map-frame1 p {
+        font-size: 8px;
+        font-weight: var( --main-font-weight);
+        color: var(--main-text-color);
+        line-height: 9.75px;
+    }
+    
+    .OS-ImgArrow {
+        position: absolute;
+        top: 7.875rem;
+        left: 20.05625rem;
+    }
+    /*tow frame style*/
+    
+    .OS-Map-frame2 {
+        top: 17.375rem;
+        left: 27.0875rem;
+    }
+    
+    .OS-ImgArrow1 {
+        position: absolute;
+        top: 20.75rem;
+        left: 26.5rem;
+    }
+    /*three frame style*/
+    
+    .OS-Map-frame3 {
+        top: 17.8rem;
+        left: 44.375rem;
+    }
+    /*Four frame style*/
+    
+    .OS-Map-frame4 {
+        top: 6.5625rem;
+        left: 55.875rem;
+    }
+    
+    .OS-ImgArrow2 {
+        position: absolute;
+        top: 10rem;
+        left: 55.0625rem;
+    }
+    /*Five frame style*/
+    
+    .OS-Map-frame5 {
+        top: 15.25rem;
+        left: 66.0625rem;
+    }
+    
+    @media screen and (min-width:1500px) {
+        .OS_Map {
+            display: flex;
+            justify-content: center;
+        }
+        .OS-ImgArrow2 {
+            left: 65%;
+        }
+        .OS-Map-frame4 {
+            left: 66%;
+        }
+        .OS-Map-frame5 {
+            left: 77%;
+        }
+        .OS-Map-frame3 {
+            left: 52%;
+        }
+        .OS-Map-frame2 {
+            left: 39%;
+            top: 57%
+        }
+        .OS-ImgArrow1 {
+            left: 38%;
+            top: 69%
+        }
+        .OS-ImgArrow {
+            left: 34%;
+            top: 27%
+        }
+        .OS-map-frame {
+            left: 31%;
+            top: 16%
+        }
+    }
+    
+    @media screen and (max-width:1200px) {
+        .Map-Image {
+            width: 90%;
+        }
+        .OS-ImgArrow2 {
+            left: 65%;
+        }
+        .OS-Map-frame4 {
+            left: 66%;
+        }
+        .OS-Map-frame5 {
+            left: 77%;
+        }
+        .OS-Map-frame3 {
+            left: 52%;
+        }
+        .OS-Map-frame2 {
+            left: 32%;
+            top: 55%
+        }
+        .OS-ImgArrow1 {
+            left: 31%;
+            top: 66%
+        }
+        .OS-ImgArrow {
+            left: 24%;
+            top: 30%
+        }
+        .OS-map-frame {
+            left: 20%;
+            top: 18%
+        }
+    }
+    
+    @media screen and (max-width:992px) {
+        .Map-Image {
+            width: 95%;
+        }
+        .OS-ImgArrow2 {
+            left: 68%;
+            top: 36%;
+        }
+        .OS-Map-frame4 {
+            left: 69%;
+            top: 25%;
+        }
+        .OS-Map-frame5 {
+            left: 80%;
+            top: 49%;
+        }
+        .OS-Map-frame3 {
+            left: 55%;
+            top: 56%;
+        }
+        .OS-Map-frame2 {
+            left: 34%;
+            top: 52%
+        }
+        .OS-ImgArrow1 {
+            left: 33%;
+            top: 63%
+        }
+        .OS-ImgArrow {
+            left: 27%;
+            top: 31%
+        }
+        .OS-map-frame {
+            left: 23%;
+            top: 20%
+        }
+    }
+    
+    @media screen and (max-width:768px) {
+        .Map-Image {
+            padding-left: 2rem;
+        }
+        .OS-ImgArrow2 {
+            left: 65%;
+            top: 38%;
+        }
+        .OS-Map-frame4 {
+            left: 66%;
+            top: 27%;
+        }
+        .OS-Map-frame5 {
+            left: 70%;
+            top: 45%;
+        }
+        .OS-Map-frame3 {
+            left: 55%;
+            top: 56%;
+        }
+        .OS-Map-frame2 {
+            left: 29%;
+            top: 47%
+        }
+        .OS-ImgArrow1 {
+            left: 28%;
+            top: 59%
+        }
+        .OS-ImgArrow {
+            left: 20%;
+            top: 33%
+        }
+        .OS-map-frame {
+            left: 15%;
+            top: 20%
+        }
+    }
+    
+    @media screen and (max-width:576px) {
+        .OS-Map-frame3 {
+            left: 51%;
+            top: 56%;
+        }
+        .OS-Map-frame2 {
+            left: 20%;
+            top: 44%
+        }
+        .OS-ImgArrow1 {
+            left: 28%;
+            top: 55%
+        }
+        .OS-ImgArrow {
+            left: 20%;
+            top: 36%
+        }
+        .OS-map-frame {
+            left: 10%;
+            top: 25%
+        }
+        .OS-map {
+            width: 6.8125rem;
+        }
+        .OS-map-frame1 h6 {
+            font-size: 8px;
+        }
+        .OS-map-frame1 p {
+            font-size: 6px;
+        }
+    }
+    
+    @media screen and (max-width:400px) {
+        .Map-Image {
+            width: 100%;
+        }
+        .OS-ImgArrow2 {
+            left: 68%;
+            top: 37%;
+        }
+        .OS-Map-frame4 {
+            left: 66%;
+            top: 26%;
+        }
+        .OS-Map-frame5 {
+            left: 69%;
+            top: 43%;
+        }
+        .OS-Map-frame3 {
+            left: 45%;
+            top: 56%;
+        }
+        .OS-Map-frame2 {
+            left: 34%;
+            top: 40%
+        }
+        .OS-ImgArrow1 {
+            left: 33%;
+            top: 51%
+        }
+        .OS-ImgArrow {
+            left: 20%;
+            top: 39%
+        }
+        .OS-map-frame {
+            left: 10%;
+            top: 28%
+        }
+    }

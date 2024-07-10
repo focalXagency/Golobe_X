@@ -1,0 +1,25 @@
+.MH-favorites {
+   background-color: #FAFAFA;
+}
+
+.MH-Newsletter{
+   margin-top: 120.5px;
+}
+.MH-favorites .MH-favorites-content {
+   padding: 135px 104px 0 104px;
+}
+@media (max-width:992px) {
+   .MH-favorites .MH-favorites-content {
+      padding: 135px 70px 0 70px;
+   }
+}
+@media (max-width:768px) {
+   .MH-favorites .MH-favorites-content {
+      padding: 135px 40px 0 40px;
+   }
+}
+@media (max-width:576px) {
+   .MH-favorites .MH-favorites-content {
+      padding: 135px 25px 0 25px;
+   }
+}

@@ -1,0 +1,404 @@
+.NM_HotelListing {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 0 var(--main-padding) 120px var(--main-padding);
+}
+
+.MH-favorites-box.NM {
+    display: flex;
+    gap: 0px;
+    margin-bottom: 24px;
+    margin-right: 0px;
+    text-align: start;
+}
+
+.MH-favorites-box:last-child {
+    margin-bottom: 0;
+}
+
+.MH-favorites-main.NM {
+    padding: 0;
+}
+
+.NM_MainSection {
+    display: flex;
+    gap: 24px;
+}
+
+.NM_filter {
+    width: 27.84%;
+    /* 343  * 100 / 1232px */
+}
+
+.NM_Part2 {
+    width: 70.21%;
+    /* ( 840 + 24.5 + 0.5 ) *100 / 1232px */
+}
+
+.NM_Part2:last-child {
+    text-align: end;
+}
+
+.NM_Tabs {
+    padding-left: 24.5px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    border-left: 0.5px solid rgba(17, 34, 17, 0.25);
+}
+
+.MH-favorites-main .MH-favorites-box .MH-image.NM img {
+    width: 100%;
+    height: 100%;
+}
+
+.MH-favorites-main .MH-favorites-box .MH-image.NM {
+    /* 300 * 100 /840  */
+    width: 35.7%;
+    height: 298.5px;
+}
+
+.MH-favorites-main .MH-favorites-box .MH-favorites-info.NM {
+    /* 540 * 100 /840  */
+    width: 64.3%;
+    box-shadow: 0px 4px 16px 0px #1122110D;
+}
+
+.MH-favorites-main .MH-favorites-box .MH-infos.NM {
+   gap: 24px;
+}
+
+.MH-favorites-main .MH-favorites-box .MH-favorites-info .MH-info1.NM {
+    padding-right: 24px;
+    /* 355 * 100 /492  */
+    width: 72.15%;
+}
+
+.MH-favorites-main .MH-favorites-box .MH-favorites-info .MH-info2.NM {
+    /* 113 * 100 /492  */
+    width: 23%;
+}
+
+.MH-favorites-info .MH-box-button .MH-box-button2.NM {
+    /* 428 * 100 /492  */
+    width: 87%;
+}
+
+.MH-favorites-info .MH-box-button .MH-box-button2 button:hover,
+.NM_btnListing:hover {
+    background-color: var(--fourth-bgcolor);
+    color: var( --main-bgcolor);
+    border: 1px solid var(--main-bgcolor);
+}
+
+.NM_ViewPlaceBtn{
+    text-decoration: none;
+    font-size: var(--xxsmall-font-size);
+    color:var(--main-text-color) ;
+}
+
+.NM_btnListing {
+    width: calc(100% - 24.5px);
+    height: 48px;
+    background-color: var(--main-text-color);
+    border: none;
+    border-radius: 4px;
+    color: var(--fourth-bgcolor);
+    font-family: var(--main-font);
+    margin-top: 32px;
+}
+
+.NM_LineInfo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--main-font);
+    font-size: var(--xxsmall-font-size);
+    font-weight: var(--third-font-weight);
+    margin: 32px 0;
+}
+
+.NM_LineInfo p {
+    margin-bottom: 0;
+}
+
+.NM_ParaN {
+    font-weight: var(--main-font-weight);
+}
+
+.NM_ParaN b {
+    font-weight: var(--third-font-weight);
+}
+
+.NM_LineInfo span {
+    color: var(--main-bgcolor);
+}
+
+.NM_Tabs .nav-tabs {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+    height: 80px;
+    padding: 17.5px 0 0 24px;
+    margin-bottom: 0;
+    box-shadow: 0px 4px 16px 0px #1122110D;
+    background-color: var(--fourth-bgcolor);
+}
+
+.NM_Tabs .nav-item {
+    width: 31.2%;
+}
+
+.NM_Tabs .nav-link {
+    height: 48px;
+    position: relative;
+    border: none;
+    color: var(--main-text-color);
+    text-align: start;
+    font-family: var(--main-font);
+    font-weight: var(--third-font-weight);
+    padding: 0;
+    margin: 0;
+    padding-bottom: 1.5rem;
+}
+
+.NM_tabs .nav-link.active::before {
+    content: "";
+    display: block;
+    width: 93.55%;
+    /* 232 * 100 /248 */
+    height: 4px;
+    background-color: var(--main-bgcolor);
+    position: absolute;
+    bottom: -17.5px;
+    left: 0;
+}
+
+.NM_tabs {
+    border-bottom: none;
+}
+
+#uncontrolled-tab-example-tab-hotel::after,
+#uncontrolled-tab-example-tab-motel::after,
+#uncontrolled-tab-example-tab-resort::after {
+    content: '257 places';
+    color: rgba(17, 34, 17, 0.4);
+    position: absolute;
+    top: 1.7rem;
+    left: 0;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#uncontrolled-tab-example-tab-motel::after {
+    content: '51 places';
+}
+
+#uncontrolled-tab-example-tab-resort::after {
+    content: '72 places';
+}
+
+.NM_tabs nav .nav-tabs {
+    width: 100%;
+}
+
+#uncontrolled-tab-example-tab-hotel,
+#uncontrolled-tab-example-tab-motel,
+#uncontrolled-tab-example-tab-resort {
+    width: 100%;
+    border-radius: 0;
+    padding-right: 23.99px;
+    border-right: 1px solid #D7E2EE;
+}
+
+#uncontrolled-tab-example-tab-resort {
+    border: none;
+}
+
+
+.MS-filter{
+    font-size: var(  --small-font-size);
+    font-weight: var(  --third-font-weight);
+    line-height: var(--xmedium-line-hieght);
+    color: var(--main-text-color);
+}
+.MS-filterBtn {
+    display: none;
+    font-weight: var(  --third-font-weight);
+}
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-content {
+    background: var( --second-text-color);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 500px;
+    width: 100%;
+    max-height: 80%;
+    overflow-y: auto;
+}
+
+.popup-close-btn {
+    background: var(--main-bgcolor);
+    color:var( --second-text-color);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-weight: var(  --third-font-weight);
+}
+@media screen and (max-width: 1200px) {
+    .NM_MainSection {
+        flex-direction: column;
+    }
+
+    .NM_Tabs {
+        border: none;
+        padding-left: 0;
+    }
+
+    .NM_Part2 {
+        width: 100%;
+    }
+    .MS-filter {
+        display: none;
+    }
+    
+    .MS-filterBtn {
+        display: block;
+        background-color:var(--main-bgcolor);
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    .MS-filterContent {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .NM_HotelListing {
+        padding: 48px var(--main-padding-home) 120px var(--main-padding-home);
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .MH-favorites-main .MH-favorites-box.NM {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .MH-favorites-main .MH-favorites-box .MH-image.NM {
+        width: 70%;
+    }
+
+    .MH-favorites-main .MH-favorites-box .MH-image.NM img {
+        border-radius: 12px;
+
+    }
+
+    .MH-favorites-main .MH-favorites-box .MH-favorites-info.NM,
+    .MH-favorites-main .MH-favorites-box .MH-favorites-info .MH-info2.NM {
+        width: 100%;
+    }
+
+    .MH-favorites-main .MH-favorites-box .MH-infos.NM{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .MH-favorites-main .MH-favorites-box .MH-image.NM {
+        width: 90%;
+    }
+
+    .NM_LineInfo {
+        flex-direction: column;
+        align-items: start;
+        gap: 10px;
+    }
+
+    .MH-favorites-main .MH-favorites-box .MH-info1.NM {
+        text-align: start;
+    }
+
+    .MH-favorites-main .MH-favorites-box .MH-favorites-info .MH-infos.NM {
+        justify-content: start;
+        align-items: start;
+    }
+
+    .MH-favorites-main .MH-favorites-box 
+    .MH-favorites-info .MH-info1 .MH-location.NM {
+        justify-content: start;
+    }
+
+    .MH-favorites-main .MH-favorites-box 
+    .MH-favorites-info .MH-info1 .MH-evaluation.NM {
+        justify-content: start;
+    }
+
+    .MH-favorites-main .MH-favorites-box 
+    .MH-favorites-info .MH-info1 .MH-star.NM {
+        align-items: start;
+        flex-direction: column;
+    }
+
+    .MH-favorites-main .MH-favorites-box .MH-favorites-info .MH-info2.NM {
+        align-items: start;
+    }
+
+    .MH-info2.NM {
+        text-align: start;
+        align-items: start;
+    }
+
+    .MH-info2.NM {
+        text-align: start !important;
+        align-items: start !important;
+    }
+
+    .MH-info1.NM {
+        padding-right: 0 !important;
+    }
+
+    .MH-info2.NM p {
+        margin: 10px 0 0 0 !important;
+    }
+
+    .MH-favorites-info .MH-info2 .MH-excl.NM {
+        text-align: start;
+    }
+
+    .MH-favorites-main .MH-favorites-box 
+    .MH-favorites-info .MH-info2 .MH-excl {
+        text-align: start;
+    }
+    .NM_Tabs .nav-tabs {
+        gap: 10px;
+    }
+
+    .MH-favorites-main .MH-favorites-box .MH-favorites-info .MH-info2.NM p{
+        text-align: start;
+    }
+    
+}

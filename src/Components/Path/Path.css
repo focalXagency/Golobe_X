@@ -1,0 +1,67 @@
+.Aya-path .Aya-path-p .Aya-path-span1 {
+    color: var(--main-bgcolor);
+    font-size: var(--xxsmall-font-size);
+    font-weight: var(--second-font-weight);
+    line-height: var(--xxsmall-line-hieght);
+    padding-right: 8px;
+}
+.Aya-path .Aya-path-p .Aya-path-icon1 , .Aya-path .Aya-path-p .Aya-path-icon2 {
+    width: 14px;
+    height: 14px;
+    padding-right: 8px;
+    opacity: 75%;
+}
+.Aya-path .Aya-path-p .Aya-path-span2 {
+    font-family: var(--main-font);
+    font-size: var(--xxsmall-font-size);
+    font-weight: var(--second-font-weight);
+    line-height: var(--xxsmall-line-hieght);
+    color: var(--main-bgcolor);
+    padding-right: 8px;
+}
+.Aya-path .Aya-path-p .Aya-path-span3 {
+    color: var(--main-text-color);
+    font-size: var(--xxsmall-font-size);
+    font-weight: var(--second-font-weight);
+    line-height: var(--xxsmall-line-hieght);
+    opacity: 75%;
+}
+.Aya-path {
+    padding: 8.43rem 0 1.8rem 6.5rem;
+    background: #FAFAFA;
+    width: max-content;
+    top: 135px;
+    gap: 8px;
+}
+.Aya-path .Aya-path-p {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+@media(min-width : 768px) and (max-width : 991px) {
+    .Aya-path {
+        padding: 8.43rem 0 1.8rem 1.875rem;
+    }
+}
+@media(min-width : 576px) and (max-width : 767px)  {
+    .Aya-path {
+        padding: 8.43rem 0 1.8rem 1.875rem;
+    }
+}
+@media(min-width : 400px) and (max-width : 575px) {
+    .Aya-path {
+        padding: 8.43rem 0 1.8rem 1.875rem;
+    }
+    .Aya-path .Aya-path-p .Aya-path-span1 ,.Aya-path .Aya-path-p .Aya-path-span2 ,.Aya-path .Aya-path-p .Aya-path-span3 {
+        font-size: var(--xxxsmall-font-size);
+    }
+}
+@media(min-width : 320px) and (max-width : 399px) {
+    .Aya-path {
+        padding: 8.43rem 0 1.8rem 1.875rem;
+    }
+    .Aya-path .Aya-path-p .Aya-path-span3 {
+        display: block;
+        margin-top: 10px;
+    }
+} 

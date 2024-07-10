@@ -1,0 +1,103 @@
+.AM_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 24px;
+    background-color: var(--fourth-bgcolor);
+    margin-top: 135px;
+    border-radius: 16px;
+    box-shadow: 0px 4px 16px 0px #1122110D;
+    min-width: 1232px !important;
+    min-height:120px;
+}
+
+.AM-textfields {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 104rem;
+    min-height: 120px;
+    padding: 32px 0;
+    gap: 24px;
+    border-radius: 16px;
+}
+.AM_searchButton {
+    width: 56px;
+    height: 100%;
+    min-height: 56px; 
+    padding: 8px 16px 8px 16px;
+    gap: 4px;
+    border-radius: 4px;
+    border: none;
+    background-color: var(--main-bgcolor);
+}
+.AM-field {
+    width: 297.33px;
+    height: 56px;
+    gap: 10px;
+    border-radius: 4px;
+    border: 1px;
+}
+.AM-Returnfield {
+    width: 8.75rem;
+    min-height: 3.5rem;
+    border-radius: 4px;
+    border: 1px;
+}
+@media screen and (max-width: 1439px) {
+    .AM_form {
+        min-width: 0 !important;
+        max-width: 77rem !important;
+    }
+    .AM-textfields {
+        justify-content: start !important;
+    }
+}
+@media screen and (max-width: 1359px) {
+    .AM-Returnfield {
+        width: 297.33px;
+    }
+}
+@media screen and (max-width:992px){
+    .AM_form {
+        margin-top: 70px;
+    }
+    .AM-textfields {
+        flex-direction: column;
+    }
+    .AM-field {
+        display: block;
+        width: 30rem !important;
+        
+    }
+    .AM-Returnfield  {
+        width: 30rem !important;
+    }
+    .AM_searchButton {
+        margin-right: 421px;
+    }
+}
+@media screen and (max-width:560px) {
+    .AM-field {
+        width: 20rem !important;
+    }
+    .AM-Returnfield  {
+        width: 20rem !important;
+        
+    }
+    .AM_searchButton {
+        margin-right: 256px;
+    }
+}
+@media screen and (max-width:410px) {
+    .AM-field {
+        width: 14rem !important;
+    }
+    .AM-Returnfield  {
+        width: 14rem !important;
+    }
+    .AM_searchButton {
+        margin-right: 167px;
+    }
+}

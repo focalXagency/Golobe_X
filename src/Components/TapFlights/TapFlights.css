@@ -1,0 +1,208 @@
+.OS-Fl-Style {
+    display: flex;
+    height: 9rem;
+    border-radius: 16px;
+    padding: 32px 24px 32px 24px;
+    background-color: var( --second-text-color);
+    margin-bottom: 16px;
+    width: 100%;
+    box-shadow: 0px 4px 16px 0px var(--third-bgcolor);
+}
+
+.css-19kzrtu {
+    padding: 16px 0px!important;
+}
+
+.OS-Text-Style {
+    display: flex;
+    border-right: 1px solid #D7E2EE;
+}
+
+.OS-Emirates-line img {
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+    border: 0.5px solid var(--main-bgcolor);
+    padding: 10px;
+    margin-right: 32px;
+}
+
+.OS-Emirates-line :hover {
+    width: 75px;
+    height: 75px;
+}
+
+.OS-Text-par {
+    opacity: 75%;
+    font-size: var( --xsmall-font-size);
+    font-weight: var( --main-font-weight);
+    line-height: var( --xxxsmall-line-hieght);
+    width: max-content;
+    color: var(--main-text-color);
+}
+
+.OS-Text-number {
+    font-size: var( --small-font-size);
+    font-weight: var( --third-font-weight);
+    line-height: var(--xmedium-line-hieght);
+    width: 112px;
+    color: var(--main-text-color);
+}
+
+.OS-Line-img {
+    display: flex;
+    align-items: center;
+    margin: 0px 16px 0px 16px;
+}
+
+.OS-Date-All {
+    display: flex;
+    margin-left: 24px;
+}
+
+.OS-Date-flex {
+    display: flex;
+    padding-bottom: 8px;
+    flex-wrap: wrap;
+}
+
+.OS-Text-para {
+    font-size: var( --xxxsmall-font-size);
+    font-weight: var( --third-font-weight);
+    line-height: var(--small-line-hieght);
+    color: var(--main-text-color);
+    opacity: 60%;
+    width: max-content;
+    height: 15px;
+}
+
+.OS-Text-date {
+    font-size: var( --xsmall-font-size);
+    font-weight: var(--second-font-weight);
+    line-height: var(--xxxsmall-line-hieght);
+    color: var(--main-text-color);
+    display: flex;
+    opacity: 100%;
+}
+
+.OS-HourIcon {
+    background-color: #D7E2EE;
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 14px;
+}
+
+.OS-Date-padding {
+    padding: 0px 24px 0px 0px;
+    width: max-content;
+}
+
+.OS-Text-padding {
+    margin-top: -8px;
+}
+
+.OS-Flight-btn {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.OS-btn1 {
+    width: 152px;
+    height: 48px;
+    border-radius: 4px;
+    background-color: var(--main-bgcolor);
+    border: none;
+    margin-right: 10px;
+}
+
+.OS-btn1:hover {
+    background-color: transparent;
+    border: 1px solid var(--main-bgcolor);
+    transition: all .5s;
+}
+
+.OS-btn2 {
+    width: 48px;
+    height: 48px;
+    border-radius: 4px;
+    border: 1px solid var(--main-bgcolor);
+    background-color: transparent;
+}
+
+.OS-btn2:hover {
+    background-color: var(--main-bgcolor);
+    transition: all .5s;
+}
+
+@media screen and (max-width:1200px) {
+    .OS-Fl-Style {
+        height: 13rem;
+        flex-wrap: wrap;
+    }
+    .OS-Flight-btn {
+        align-items: start;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .OS-Flight-btn {
+        width: 50%;
+    }
+    .OS-Date-All {
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width:872px) {
+    .OS-Flight-btn {
+        width: 100%;
+    }
+    .OS-Fl-Style {
+        height: 17rem;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .OS-Fl-Style {
+        height: 21rem;
+    }
+    .OS-Emirates-line,
+    .OS-Text-Style,
+    .OS-Date-All,
+    .OS-Flight-btn {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:390px) {
+    .OS-Fl-Style {
+        height: 25rem;
+    }
+    .OS-Text-number {
+        width: max-content;
+    }
+}
+
+@media screen and (max-width:280px) {
+    .OS-Text-par {
+        font-size: var( --xxxsmall-font-size);
+    }
+    .OS-Text-number {
+        font-size: var( --xxsmall-font-size);
+    }
+    .OS-T-Flight {
+        font-size: var( --small-font-size);
+    }
+    .OS-Line-img {
+        margin: 0px 4px 0px 4px;
+    }
+}
